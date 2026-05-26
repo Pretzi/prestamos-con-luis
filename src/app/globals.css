@@ -1,0 +1,223 @@
+@import './tokens.css';
+@import './styles.css';
+
+/* ── FAQ React accordion overrides ── */
+/* Replace <summary> / details[open] selectors with button / data-open */
+
+.faq-item__question {
+  appearance: none;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  list-style: none;
+  cursor: pointer;
+  padding-block: var(--space-lg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-lg);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: 600;
+  font-style: normal;
+  color: var(--color-ink);
+  line-height: 1.4;
+  user-select: none;
+}
+
+.faq-item__question:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.faq-item__question::after {
+  content: '';
+  display: block;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-right: 1.5px solid var(--color-neutral);
+  border-bottom: 1.5px solid var(--color-neutral);
+  transform: rotate(45deg) translate(-20%, -30%);
+  transition: transform var(--dur-short) var(--ease-in-out);
+}
+
+.faq-item[data-open] .faq-item__question::after {
+  transform: rotate(-135deg) translate(-20%, -30%);
+}
+
+/* ── Contact Modal ─────────────────────────────────────────── */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: oklch(0% 0 0 / 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: var(--z-modal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-md);
+  animation: modal-fade-in var(--dur-short) var(--ease-out) both;
+}
+
+@keyframes modal-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.modal {
+  background: var(--color-paper);
+  width: 100%;
+  max-width: 30rem;
+  max-height: 90dvh;
+  overflow-y: auto;
+  padding: var(--space-2xl);
+  position: relative;
+  animation: modal-slide-in var(--dur-short) var(--ease-out) both;
+}
+
+@keyframes modal-slide-in {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.modal__close {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-neutral);
+  padding: var(--space-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--dur-micro) var(--ease-out);
+}
+
+.modal__close:hover { color: var(--color-ink); }
+
+.modal__close:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.modal__title {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-ink);
+  line-height: 1.2;
+  margin-bottom: var(--space-xs);
+  padding-right: var(--space-2xl);
+}
+
+.modal__sub {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-neutral);
+  margin-bottom: var(--space-xl);
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.modal__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+@media (max-width: 28rem) {
+  .modal__row { grid-template-columns: 1fr; }
+}
+
+.modal__field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+
+.modal__label {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.modal__input,
+.modal__select {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  border: 1.5px solid var(--color-rule);
+  padding: var(--space-xs) var(--space-sm);
+  width: 100%;
+  border-radius: 0;
+  transition: border-color var(--dur-micro) var(--ease-out);
+}
+
+.modal__input:focus,
+.modal__select:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.modal__input--mono {
+  font-family: ui-monospace, 'Courier New', monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.modal__input--error {
+  border-color: oklch(52% 0.22 25);
+}
+
+.modal__error-msg {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  color: oklch(52% 0.22 25);
+  line-height: 1.4;
+}
+
+/* Custom select */
+.modal__select-wrapper {
+  position: relative;
+}
+
+.modal__select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: var(--space-2xl);
+  cursor: pointer;
+}
+
+.modal__select-chevron {
+  position: absolute;
+  right: var(--space-sm);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--color-neutral);
+}
+
+.modal__submit {
+  width: 100%;
+  margin-top: var(--space-xs);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal-backdrop,
+  .modal {
+    animation: none;
+  }
+}

@@ -1,0 +1,74 @@
+/* Hallmark · pre-emit critique: P5 H5 E5 S5 R4 V5
+ * genre: editorial · macrostructure: Marquee Hero · theme: studied-DNA
+ * source-url: https://www.iwillteachyoutoberich.com/
+ * paper oklch(91% 0.027 75) · accent oklch(47% 0.22 35)
+ * display: heavy italic editorial serif (Fraunces 700i)
+ * body: neutral geometric grotesque (Plus Jakarta Sans)
+ * studied: yes · DNA-source: url
+ */
+
+:root {
+  /* ── Colour — white / black / blue ─────────────────────── */
+  --color-paper:        oklch(100% 0 0);       /* pure white */
+  --color-paper-2:      oklch(96% 0 0);        /* light grey — alt sections */
+  --color-paper-3:      oklch(92% 0 0);        /* medium grey */
+  --color-rule:         oklch(88% 0 0);        /* hairline rules */
+  --color-neutral:      oklch(50% 0 0);        /* secondary text */
+  --color-muted:        oklch(40% 0 0);        /* captions, meta, compliance */
+  --color-ink:          oklch(10% 0 0);        /* near-black body text */
+  --color-accent:       oklch(45% 0.20 260);   /* blue — buttons, CTAs */
+  --color-accent-hover: oklch(40% 0.20 260);   /* blue hover (darker) */
+  --color-accent-bg:    oklch(96% 0.04 260);   /* very light blue tint */
+  --color-focus:        oklch(35% 0.20 260);   /* focus ring (blue, ≥3:1) */
+
+  /* Dark surface (footer) */
+  --color-dark-border:  oklch(30.0% 0.008 53);   /* footer rule */
+  --color-dark-text:    oklch(72.0% 0.006 73);   /* footer secondary text */
+  --color-dark-muted:   oklch(55.0% 0.006 68);   /* footer body */
+  --color-dark-faint:   oklch(43.0% 0.006 65);   /* footer legal / copyright */
+
+  /* ── Typography ─────────────────────────────────────────── */
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body:    "Plus Jakarta Sans", system-ui, sans-serif;
+
+  /* ── Type scale (major third 1.25×) ────────────────────── */
+  --text-xs:       0.64rem;    /*  ~10px */
+  --text-sm:       0.8rem;     /*  ~13px */
+  --text-base:     1rem;       /*   16px */
+  --text-md:       1.25rem;    /*   20px */
+  --text-lg:       1.5625rem;  /*   25px */
+  --text-xl:       1.9531rem;  /*  ~31px */
+  --text-2xl:      2.4414rem;  /*  ~39px */
+  --text-3xl:      3.0518rem;  /*  ~49px */
+  --text-4xl:      3.8147rem;  /*  ~61px */
+  --text-display-s: clamp(2.2rem, 4vw + 1rem, 3.5rem);
+  --text-display:   clamp(2.75rem, 5vw + 1rem, 5.25rem);
+
+  /* ── Spacing (4pt base) ─────────────────────────────────── */
+  --space-3xs: 0.125rem;  /*  2px */
+  --space-2xs: 0.25rem;   /*  4px */
+  --space-xs:  0.5rem;    /*  8px */
+  --space-sm:  0.75rem;   /* 12px */
+  --space-md:  1rem;      /* 16px */
+  --space-lg:  1.5rem;    /* 24px */
+  --space-xl:  2.5rem;    /* 40px */
+  --space-2xl: 4rem;      /* 64px */
+  --space-3xl: 6rem;      /* 96px */
+  --space-4xl: 9rem;      /* 144px */
+
+  /* ── Motion ─────────────────────────────────────────────── */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro:   120ms;
+  --dur-short:   220ms;
+  --dur-long:    420ms;
+
+  /* ── Z-index ─────────────────────────────────────────────── */
+  --z-base:     1;
+  --z-raised:   10;
+  --z-dropdown: 100;
+  --z-sticky:   200;
+  --z-modal:    400;
+  --z-toast:    500;
+}
