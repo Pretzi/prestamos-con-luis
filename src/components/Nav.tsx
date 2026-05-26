@@ -3,11 +3,11 @@ import CTAButton from './CTAButton';
 export default function Nav() {
   return (
     <nav className="nav" aria-label="Navegación principal">
-      <a href="/" className="nav__wordmark" aria-label="Préstamos con Luis — Inicio">
+      <a href="/" className="nav__wordmark" aria-label="Los Préstamos con Luis — Inicio">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/assets/luis-logo-2.png" alt="" className="nav__avatar" />
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/assets/logo-v3.png" alt="Préstamos con Luis" className="nav__logo" />
+        <img src="/assets/logo-v3.png" alt="Los Préstamos con Luis" className="nav__logo" />
       </a>
       <ul className="nav__links">
         <li><a href="#proceso">Proceso</a></li>

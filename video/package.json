@@ -1,7 +1,7 @@
 {
   "name": "prestamos-con-luis-video",
   "version": "1.0.0",
-  "description": "Intro video for Préstamos con Luis",
+  "description": "Intro video for Los Préstamos con Luis",
   "scripts": {
     "start": "remotion studio",
     "render": "remotion render src/index.ts Intro ../assets/intro.mp4 --overwrite"

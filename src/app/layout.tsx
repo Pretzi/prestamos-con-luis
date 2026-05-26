@@ -20,7 +20,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Préstamos con Luis — Financiamiento para empleados de gobierno',
+  title: 'Los Préstamos con Luis — Financiamiento para empleados de gobierno',
   description:
     'Asesoría de crédito para empleados de gobierno, jubilados y pensionados de SEP, IMSS e ISSSTE. Revisión sin costo, sin anticipos. Luis Álvarez.',
 };
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Préstamos con Luis',
+  name: 'Los Préstamos con Luis',
   description: 'Asesoría y gestión de créditos para empleados del gobierno federal en México',
   provider: {
     '@type': 'Person',

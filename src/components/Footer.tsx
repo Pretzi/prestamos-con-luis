@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
           <div className="footer__meta">
             <p className="footer__brand">
-              Préstamos con Luis ·{' '}
+              Los Préstamos con Luis ·{' '}
               <a
                 href="https://wa.me/5212294172112"
                 target="_blank"

@@ -250,7 +250,7 @@ const Scene3: React.FC = () => {
           marginBottom: 48,
         }}
       >
-        ¿Por qué Préstamos con Luis?
+        ¿Por qué Los Préstamos con Luis?
       </div>
 
       <div
