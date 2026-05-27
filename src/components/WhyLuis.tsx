@@ -5,26 +5,22 @@ export default function WhyLuis() {
         <div className="split">
           <div className="split__text">
             <h2 className="section__heading" id="why-luis-heading">
-              Lo que hace Luis, más allá del trámite
+              ¿Cuál es la ventaja de sacar un crédito conmigo?
             </h2>
             <div className="prose">
               <p>
-                Aquí el objetivo no termina cuando se gestiona el crédito. La
-                parte más importante es que entiendas exactamente lo que estás
-                firmando: cada cláusula, cada condición, cada derecho que tienes
-                como acreditado antes de comprometerte.
+                La diferencia no es solo obtener el financiamiento, es tener
+                acompañamiento. No solo te ayudo a conseguir un crédito, también
+                a entenderlo, conocer tu contrato, saber cómo abonar a capital,
+                liquidar antes y usarlo a tu favor.
               </p>
               <p>
-                Si ya tienes un crédito activo y quieres saber cómo hacer abonos
-                a capital para reducir el plazo o el costo total de tu deuda,
-                Luis puede orientarte. Si quieres calcular si te conviene
-                liquidar anticipadamente, también.
+                Además, si llegas a tener alguna situación con pagos o necesitas
+                orientación, te ayudo a buscar la mejor solución.
               </p>
               <p>
-                El propósito es que cada persona que pase por este proceso tome
-                una decisión financiera informada, sin presión y con todos los
-                elementos sobre la mesa. Un crédito bien entendido es muy
-                diferente a uno que solo se firma.
+                La idea es que tengas apoyo antes, durante y después de tu
+                financiamiento.
               </p>
             </div>
           </div>

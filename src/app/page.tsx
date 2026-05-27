@@ -2,6 +2,7 @@ import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import IntroVideo from '@/components/IntroVideo';
 import Testimonials from '@/components/Testimonials';
+import TestimonialsVideo from '@/components/TestimonialsVideo';
 import Problem from '@/components/Problem';
 import Eligibility from '@/components/Eligibility';
 import Process from '@/components/Process';
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero />
       <IntroVideo />
       <Testimonials />
+      <TestimonialsVideo />
       <main>
         <Problem />
         <Eligibility />

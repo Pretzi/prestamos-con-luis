@@ -26,8 +26,14 @@ export default function Process() {
     <section id="proceso" className="section" aria-labelledby="process-heading">
       <div className="container">
         <h2 className="section__heading" id="process-heading">
-          ¿Cómo funciona el proceso?
+          ¿Cómo es el proceso del trámite?
         </h2>
+        <p className="section__intro">
+          El trámite es 100% en línea, pensado para que puedas hacerlo desde
+          cualquier lugar con tu celular e internet. Durante el proceso se te
+          comparte seguimiento y evidencia de cómo va avanzando tu trámite.
+          La idea es que todo sea práctico, rápido y sin vueltas innecesarias.
+        </p>
         <ol className="process-steps" aria-label="Pasos del proceso">
           {steps.map((step) => (
             <li key={step.num} className="process-step">

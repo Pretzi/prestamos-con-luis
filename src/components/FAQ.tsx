@@ -4,44 +4,49 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: '¿Si ya tengo un crédito activo puedo obtener otro?',
+    question: '¿Si ya tengo uno activo puedo obtener otro?',
     answer:
-      'Depende de tu perfil, del tipo de crédito que ya tienes y de la institución financiera. En algunos casos sí es posible obtener un segundo crédito o consolidar el existente. Esto se evalúa durante la revisión inicial del caso, sin compromiso.',
+      'Sí. Tener uno vigente no significa que ya no puedas aplicar. Se revisa tu capacidad y la financiera determina si aún puedes acceder a otra opción.',
   },
   {
     question: '¿Cuándo recibo el dinero?',
     answer:
-      'Los tiempos varían según la institución financiera y el tipo de crédito. Una vez autorizado y firmados los documentos, el depósito generalmente se realiza en días hábiles. Los tiempos exactos se confirman durante el proceso y dependen de cada institución.',
+      'La mayoría de los procesos se pagan el mismo día o al siguiente, dependiendo de horarios, validaciones y autorizaciones.',
   },
   {
-    question: '¿Cuánto tiempo tengo para pagar?',
+    question: '¿Cuánto tiempo tengo para pagar un financiamiento?',
     answer:
-      'Los plazos dependen del tipo de crédito, la institución y tu perfil. Normalmente se ofrecen opciones desde 12 hasta 120 meses, aunque los plazos disponibles varían según el convenio y la institución. Puedes elegir el plazo que mejor se ajuste a tu capacidad de pago quincenal o mensual.',
+      'Todas las financieras manejan un plazo máximo, pero no significa que tengas que usarlo completo. Puedes liquidar antes o hacer abonos a capital para ahorrar intereses.',
   },
   {
     question: '¿Revisan Buró de Crédito?',
     answer:
-      'Sí. La mayoría de las instituciones financieras consultan el Buró de Crédito como parte del proceso de validación. Tener historial crediticio no descalifica automáticamente una solicitud. Cada caso se evalúa de forma individual según los criterios de la institución.',
+      'Sí puede revisarse, pero no siempre define el resultado. También se consideran otros factores como ingresos, banco donde cobras e historial.',
   },
   {
     question: '¿Qué pasa con mis datos personales?',
     answer:
-      'Tus datos se usan únicamente para validación y análisis del trámite. No se comparten con terceros fuera del proceso de solicitud y se manejan conforme a la normativa de protección de datos personales aplicable en México (LFPDPPP).',
+      'Tus datos se usan únicamente para validación y análisis del trámite conforme a políticas de privacidad y procesos internos.',
   },
   {
     question: '¿Qué pasa si tengo problemas para pagar?',
     answer:
-      'Lo más importante es comunicarse con la institución financiera lo antes posible para conocer las opciones disponibles: reestructura, prórroga o acuerdos de pago. Luis puede orientarte sobre cómo manejar esta situación antes de que escale a un problema mayor.',
+      'Si llegas a tener alguna situación, se revisan opciones de orientación y posibles convenios según el caso.',
+  },
+  {
+    question: '¿Cuál es la ventaja de hacerlo con Luis?',
+    answer:
+      'No solo se trata de obtener el dinero. La idea es entender cómo funciona, conocer tu contrato y usarlo mejor.',
   },
   {
     question: '¿Qué documentos necesito?',
     answer:
-      'Los documentos varían según la institución, pero generalmente incluyen identificación oficial vigente, talón de pago reciente (al menos el último), CURP y comprobante de domicilio. Algunos trámites pueden requerir documentación adicional, lo cual se informa durante el proceso.',
+      'Para una validación inicial normalmente solo necesitamos tu INE por la parte frontal y tu último talón de pago.',
   },
   {
     question: '¿Cuánto debo tener disponible en mi talón de pago?',
     answer:
-      'Cada institución tiene requisitos mínimos de capacidad de descuento. En términos generales, después de aplicar el pago del crédito debes conservar un porcentaje de tu sueldo neto disponible. Los requisitos exactos dependen de la institución y se confirman durante la validación de tu caso.',
+      'Depende de la financiera y del ingreso en bruto, pero normalmente se busca un disponible aproximado de $1,500 pesos.',
   },
 ];
 

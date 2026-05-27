@@ -2,7 +2,7 @@
  * genre: editorial · macrostructure: Marquee Hero · theme: studied-DNA
  * source-url: https://www.iwillteachyoutoberich.com/
  * paper oklch(91% 0.027 75) · accent oklch(47% 0.22 35)
- * display: heavy italic editorial serif (Fraunces 700i)
+ * display: neutral geometric grotesque (Plus Jakarta Sans 700)
  * body: neutral geometric grotesque (Plus Jakarta Sans)
  * studied: yes · DNA-source: url
  */
@@ -28,7 +28,7 @@
   --color-dark-faint:   oklch(43.0% 0.006 65);   /* footer legal / copyright */
 
   /* ── Typography ─────────────────────────────────────────── */
-  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
   --font-body:    "Plus Jakarta Sans", system-ui, sans-serif;
 
   /* ── Type scale (major third 1.25×) ────────────────────── */

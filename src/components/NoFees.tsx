@@ -4,12 +4,13 @@ export default function NoFees() {
       <div className="container">
         <div className="no-fees-statement">
           <p className="no-fees-statement__text" id="no-fees-heading">
-            Ningún trámite tiene costo y nunca debes dar anticipos para
+            No. Ningún trámite tiene costo y nunca debes dar anticipos para
             obtener un financiamiento.
           </p>
           <p className="no-fees-statement__sub">
-            Si alguien te pide dinero por adelantado para gestionar un crédito,
-            no lo hagas. Es una señal de fraude.
+            Las financieras trabajan con convenios y comisiones para los
+            asesores, así que de tu bolsa no tiene que salir dinero, al
+            contrario, la idea es que entre a ella.
           </p>
         </div>
       </div>

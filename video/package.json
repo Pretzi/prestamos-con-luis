@@ -4,7 +4,8 @@
   "description": "Intro video for Los Préstamos con Luis",
   "scripts": {
     "start": "remotion studio",
-    "render": "remotion render src/index.ts Intro ../assets/intro.mp4 --overwrite"
+    "render": "remotion render src/index.ts Intro ../public/assets/intro.mp4 --overwrite",
+    "render:testimonials": "remotion render src/index.ts Testimonials ../public/assets/testimonials.mp4 --overwrite"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.0",

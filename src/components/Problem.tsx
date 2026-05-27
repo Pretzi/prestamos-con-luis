@@ -5,26 +5,26 @@ export default function Problem() {
         <div className="split">
           <div className="split__text">
             <h2 className="section__heading" id="problem-heading">
-              La pregunta que más importa no es cuánto te prestan
+              Lo que más le preocupa a la gente no es cuánto le prestan
             </h2>
             <div className="prose">
               <p>
-                Muchas personas que buscan financiamiento ya saben que necesitan
-                un crédito, pero no saben con certeza si podrán pagarlo
-                cómodamente, si las condiciones son convenientes para su
-                situación, o si alguien les explicará con honestidad lo que
-                están firmando.
+                En el tiempo que llevo dentro del ramo financiero me he dado
+                cuenta de algo: a la gente no le preocupa cuánto le pueden
+                prestar, le preocupa cómo lo va a pagar y si realmente le
+                conviene.
               </p>
               <p>
-                La preocupación real no siempre es el monto. A veces es el miedo
-                a comprometerse sin entender bien el contrato, o haber tenido una
-                mala experiencia antes con tasas que no eran las prometidas, o
-                abonos que no reducían la deuda como se esperaba.
+                Muchas veces esas dudas vienen por malas experiencias o por
+                personas a las que nunca les explicaron cómo funciona un
+                financiamiento.
               </p>
               <blockquote className="pull-quote">
                 <p>
-                  Un crédito no solo se trata de cuánto te prestan, sino de
-                  entender cómo lo vas a pagar y si realmente te conviene.
+                  Por eso decidí crear Los Préstamos con Luis. Porque más que
+                  obtener dinero, se trata de entender qué estás haciendo,
+                  conocer tu contrato, tus derechos como usuario y aprender a
+                  usar tu crédito a tu favor.
                 </p>
               </blockquote>
               <p>

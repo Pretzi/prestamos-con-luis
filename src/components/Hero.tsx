@@ -6,13 +6,13 @@ export default function Hero() {
       <div className="container">
         <div className="hero__inner">
           <div className="hero__content">
-            <p className="hero__tagline">Asesor digital</p>
+            <p className="hero__tagline">¡Hola!, soy Luis Álvarez</p>
             <h1 className="hero__heading">
               Financiamiento para empleados de gobierno, explicado con claridad
             </h1>
             <p className="hero__subhead">
-              Te ayudo a revisar tus opciones, entender tu contrato y elegir un
-              crédito que realmente se adapte a tu capacidad de pago.
+              Me dedico a la asesoría financiera y colocación de créditos para
+              empleados de gobierno a nivel nacional.
             </p>
             <CTAButton className="btn">
               Revisar mi caso por WhatsApp

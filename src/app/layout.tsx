@@ -1,16 +1,8 @@
 import type { Metadata } from 'next';
-import { Fraunces, Plus_Jakarta_Sans } from 'next/font/google';
+import { Plus_Jakarta_Sans } from 'next/font/google';
 import Script from 'next/script';
 import ModalProvider from '@/components/ModalProvider';
 import './globals.css';
-
-const fraunces = Fraunces({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '700'],
-  style: ['italic'],
-  variable: '--font-display-next',
-  display: 'swap',
-});
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -45,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className={`${fraunces.variable} ${plusJakarta.variable}`}>
+    <html lang="es" className={plusJakarta.variable}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <script

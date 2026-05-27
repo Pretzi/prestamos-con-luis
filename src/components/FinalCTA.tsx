@@ -6,14 +6,16 @@ export default function FinalCTA() {
       <div className="container">
         <div className="final-cta">
           <h2 className="final-cta__heading" id="final-cta-heading">
-            Revisa tus opciones antes de tomar una decisión
+            ¿Listo para comenzar?
           </h2>
           <p className="final-cta__sub">
-            Sin compromiso, sin costo. Si tienes dudas, también puedes escribir
-            directamente para preguntar.
+            Si llegaste hasta aquí, ya sabes algo que pocas personas explican:
+            un financiamiento no solo se trata de dinero, se trata de entender
+            cómo funciona. Ahora deja que te acompañe y revisemos juntos tus
+            opciones.
           </p>
           <CTAButton className="btn btn--large">
-            Comenzar validación por WhatsApp
+            Comienza tu validación hoy
           </CTAButton>
           <p className="privacy-note">
             Tus datos se usan únicamente para validación y análisis del trámite.
