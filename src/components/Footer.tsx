@@ -19,7 +19,7 @@ export default function Footer() {
             <p className="footer__brand">
               Los Préstamos con Luis ·{' '}
               <a
-                href="https://wa.me/5212294172112"
+                href="https://wa.me/5212293611931"
                 target="_blank"
                 rel="noopener noreferrer"
               >

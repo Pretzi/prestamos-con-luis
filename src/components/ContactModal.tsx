@@ -11,7 +11,7 @@ const DEPENDENCIAS = [
   'Otro',
 ];
 
-const WA_NUMBER = '5212294172112';
+const WA_NUMBER = '5212293611931';
 
 interface FormData {
   nombre: string;
